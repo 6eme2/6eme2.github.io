@@ -63,7 +63,7 @@
 						}else{
 							echo "Mot de passe pas correct";
 						}
-					include 'includes/database.php';
+					include 'database.php';
 						global $db;
 
 						$c = $db->prepare("SELECT pseudo FROM users WHERE pseudo = :pseudo");
